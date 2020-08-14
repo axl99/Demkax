@@ -1,0 +1,286 @@
+body {
+  font-family: "Playfair Display";
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6 {
+  font-family: "Roboto";
+}
+
+h5 {
+  font-family: "Barlow";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Headings */
+
+.leng {
+  position: relative;
+  text-align: right;
+}
+
+.leng-text {
+  text-decoration: none;
+  font-size: 0.7rem;
+  color: #b2ebf2;
+}
+
+.leng-text:hover {
+  text-decoration: none;
+  transition: color .9s;
+  color: #ff5722;
+}
+
+.big-heading {
+  font-family: "Barlow-Black";
+  font-size: 2.3rem;
+  line-height: 1.7;
+
+  min-height: 50%;
+  /* Fallback for browsers do NOT support vh unit */
+  min-height: 50vh;
+  /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.locationn {
+  line-height: 1.7;
+  padding-top: 10%;
+}
+
+/* Containers */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff5722;
+  color: #fff;
+}
+
+.colored-section2 {
+  background-color: #dd2c00;
+  color: #fff;
+}
+
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Barlow";
+  font-weight: lighter;
+}
+
+.navbar-brand {
+  font-family: "Barlow";
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.contact0{
+
+    text-decoration: none;
+    font-size: 0.7rem;
+    color: #fff;
+  
+}
+  .contact0:hover {
+    text-decoration: none;
+    transition: color .9s;
+    color: #00bcd4;
+  }
+/* Title Section */
+
+#title {
+  background-color: #00bcd4;
+  color: #fff;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+#title .container-fluid {
+  padding: 3% 7% 7%;
+}
+
+/* Title Image */
+
+.title-image {
+  width: 60%;
+  position: relative;
+  padding-top: 10%;
+  right: 0%;
+}
+
+
+
+
+/* Features Section */
+
+#features {
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.icon {
+  color: #b2ebf2;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #00bcd4;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  background-color: #b2ebf2;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+#press {
+  background-color: #ff5722;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* CTA Section */
+
+
+/* Footer Section */
+
+
+.social-icon {
+  margin: 20px 10px;
+  color: #ff5722;
+}
+
+
+.social-icon:hover {
+  color: #dd2c00;
+}
+.find{
+  padding-left: 50%;
+  font-family: "Barlow";
+}
+
+.map-container-5 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+.map-container-5 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+.telefonos{
+  text-align: center;
+  padding-top: 7%;
+}
+
+@media (max-width: 990px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    position: static;
+    padding-top: 0%;
+  }
+  .locationn {
+    align-content: center;
+    padding-top: 10%;
+  }
+  .find{
+    padding-left: 0%;
+    align-content: center;
+    text-align: center;
+    padding-left: 40%
+    ;
+  }
+  .telefonos{
+    padding-bottom: 15%;
+  }
+}
